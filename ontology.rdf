@@ -667,7 +667,7 @@ This property is used to link parent object (a model) to different variations of
     <!-- http://chml.foundation/ontology/R38_has_max -->
 
     <owl:ObjectProperty rdf:about="&herder;R38_has_max">
-        <rdfs:domain rdf:resource="&herder;H3_3D-Reconstruction"/>
+        <rdfs:domain rdf:resource="&herder;H86_Geometry_Point"/>
         <rdfs:range rdf:resource="&herder;H92_Geometric_Object"/>
         <owl:inverseOf rdf:resource="&herder;R38i_is_max_of"/>
     </owl:ObjectProperty>
